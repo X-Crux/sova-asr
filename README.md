@@ -67,7 +67,7 @@ $ sudo systemctl restart docker.service
 
 *   Clone the repository, download the pretrained models archive and extract the contents into the project folder:
 ```bash
-$ git clone --recursive https://github.com/sovaai/sova-asr.git
+$ git clone --recursive https://github.com/X-Crux/sova-asr.git
 $ cd sova-asr/
 $ wget http://dataset.sova.ai/SOVA-ASR/Data.tar
 $ tar -xvf Data.tar && rm Data.tar
