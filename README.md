@@ -115,6 +115,16 @@ If you want to finetune the acoustic model you can set hyperparameters and paths
      $ sudo docker-compose up -d sova-asr-train
      ```
 
+## Processing audio files from the local directory Audio
+*	You need to put the audio file in the Audio folder in the root directory.
+
+*	Run a POST request via Postman:
+     ```
+     method: POST
+     url: http://localhost:8888/loc/
+     body(JSON): {"filename": "localfile.mp3"}
+     ```
+
 ## Testing
 
 To test the service you can send a POST request:
